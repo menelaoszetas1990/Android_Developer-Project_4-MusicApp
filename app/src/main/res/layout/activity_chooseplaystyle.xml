@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.musicapp.ChoosePlaystyle">
+
+    <TextView
+        style="@style/activityImplementationText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/choosePlaystylePT" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <!-- Button to play all songs  -->
+        <Button
+            android:id="@+id/button1CP"
+            style="@style/buttons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button1CP" />
+
+        <!-- Button to play songs sorted by artist -->
+        <Button
+            android:id="@+id/button2CP"
+            style="@style/buttons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button2CP" />
+
+        <!-- Button to play songs sorted by album -->
+        <Button
+            android:id="@+id/button3CP"
+            style="@style/buttons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button3CP" />
+
+        <!-- Button to choose a playlist -->
+        <Button
+            android:id="@+id/button4CP"
+            style="@style/buttons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button4CP" />
+
+    </LinearLayout>
+
+</RelativeLayout>

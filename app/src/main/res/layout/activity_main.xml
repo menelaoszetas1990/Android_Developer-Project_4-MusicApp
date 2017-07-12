@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.musicapp.MainActivity">
+
+    <!-- A text implementing what is the point of the activity_main -->
+    <TextView
+        style="@style/activityImplementationText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/activityMainPT" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <!-- Button to go straight to play music  -->
+        <Button
+            android:id="@+id/button1MA"
+            style="@style/buttons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button1AM" />
+
+        <!-- Button to go straight to a music search app -->
+        <Button
+            android:id="@+id/button2MA"
+            style="@style/buttons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button2AM" />
+
+        <!-- Button to donate to the creator of the app -->
+        <Button
+            android:id="@+id/button3MA"
+            style="@style/buttons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button3AM" />
+
+    </LinearLayout>
+
+</RelativeLayout>
