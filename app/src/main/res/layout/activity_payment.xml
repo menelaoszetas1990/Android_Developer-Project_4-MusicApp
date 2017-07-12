@@ -20,7 +20,8 @@
             style="@style/buttons"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/button1P" />
+            android:text="@string/button1P"
+            android:onClick="donate"/>
 
         <TextView
             android:id="@+id/response"

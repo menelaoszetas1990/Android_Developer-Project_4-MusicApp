@@ -28,7 +28,7 @@ public class Payment extends AppCompatActivity {
     Intent m_service;
     int m_paypalRequestCode = 999; //any code
 
-    @Override
+
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_payment);
@@ -44,7 +44,7 @@ public class Payment extends AppCompatActivity {
         startService(m_service); // paypal service, listening to calls to paypal app
     }
 
-    void pay(View view){
+    public void donate(View view){
         PayPalPayment payment = new PayPalPayment(new BigDecimal(10), "USD", "Test payment", PayPalPayment.PAYMENT_INTENT_SALE);
 
         Intent intent = new Intent(this, PaymentActivity.class);
