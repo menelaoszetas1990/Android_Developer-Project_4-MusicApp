@@ -15,10 +15,6 @@ import com.paypal.android.sdk.payments.PaymentConfirmation;
 
 import java.math.BigDecimal;
 
-/**
- * Created by menelaos on 7/12/2017.
- */
-
 public class Payment extends AppCompatActivity {
 
     TextView m_response;
