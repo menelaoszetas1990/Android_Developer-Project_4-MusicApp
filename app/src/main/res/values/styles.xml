@@ -8,6 +8,15 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <!-- style of the activity label texts -->
+    <style name="activityLabelText">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/labelTextSize</item>
+        <item name="android:layout_margin">@dimen/labelTextMargin</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
     <!-- style of the activity implementation texts -->
     <style name="activityImplementationText">
         <item name="android:textColor">@color/black</item>
@@ -22,11 +31,5 @@
         <item name="android:background">@color/buttonColorAM</item>
         <item name="android:layout_margin">@dimen/pointTextMargin</item>
     </style>
-
-    <!-- style of search box -->
-    <style name="searchBox">
-        <item name="android:layout_margin">@dimen/pointTextMargin</item>
-    </style>
-
 
 </resources>

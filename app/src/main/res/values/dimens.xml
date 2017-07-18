@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+    <!-- Dimension of label texts -->
+    <dimen name="labelTextSize">22sp</dimen>
+    <dimen name="labelTextMargin">6dp</dimen>
+
     <!-- Dimension of point texts -->
     <dimen name="pointTextSize">18sp</dimen>
     <dimen name="pointTextMargin">10dp</dimen>

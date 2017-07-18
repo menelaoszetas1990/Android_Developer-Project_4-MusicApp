@@ -1,56 +1,63 @@
 <resources>
     <string name="app_name">Music App</string>
 
-    <!-- android activity labels -->
+    <!-- android activities names -->
+    <string name="mainActivity">Main Menu</string>
     <string name="choosePlaystyle">Choose Playstyle</string>
     <string name="nowPlaying">Now Playing</string>
     <string name="donate">Donate</string>
 
+    <!-- android activity labels -->
+    <string name="mainActivityU"><u>Main Menu</u></string>
+    <string name="choosePlaystyleU"><u>Choose The Playstyle</u></string>
+    <string name="nowPlayingU"><u>Now Playing Screen</u></string>
+    <string name="donateU"><u>Donation Activity</u></string>
+
     <!-- Strings for the activity_main -->
 
     <!-- Text for the role of activity_main -->
-    <string name="activityMainPT">This will be the main activity. Here the user will be able to chose to play his music, search for new songs via a live search and donate for the application</string>
+    <string name="activityMainPointText">This will be the main activity. Here the user will be able to chose to play his music, search for new songs via a live search and donate for the application</string>
 
     <!-- Text for the 1st button -->
-    <string name="button1AM">Play music now</string>
+    <string name="buttonPlayMusicNow">Play music now</string>
 
     <!-- Text for the 2nd button -->
-    <string name="button2AM">Live Search</string>
+    <string name="buttonLiveSearch">Live Search</string>
 
     <!-- Text for the search box -->
-    <string name="button3AM">Donate</string>
+    <string name="buttonDonate">Donate</string>
 
 
     <!-- Strings for the activity_chooseplaystyle -->
 
     <!-- Text for the role of activity_chooseplaystyle -->
-    <string name="choosePlaystylePT">This will be the activity where the user will pick the order he wants to listen his songs (all songs, by artist, by album etc)</string>
+    <string name="choosePlaystylePointText">This will be the activity where the user will pick the order he wants to listen his songs (all songs, by artist, by album etc)</string>
 
     <!-- Text for the 1st button -->
-    <string name="button1CP">All songs</string>
+    <string name="buttonAllSongs">All songs</string>
 
     <!-- Text for the 2nd button -->
-    <string name="button2CP">Sorted by artist</string>
+    <string name="buttonSortedByArtist">Sorted by artist</string>
 
     <!-- Text for the 3rd button -->
-    <string name="button3CP">Sorted by album</string>
+    <string name="buttonSortedByAlbum">Sorted by album</string>
 
     <!-- Text for the 4th button -->
-    <string name="button4CP">Playlists</string>
+    <string name="buttonPlaylists">Playlists</string>
 
     <!-- Strings for the activity_nowplaying -->
 
     <!-- Text for the role of activity_nowplaying -->
-    <string name="nowPlayingPT">This will be the activity where the user will hear his music. The songs are displayed according to the mode that the user picked from the previous activity (he will see the artists or the albums etc)</string>
+    <string name="nowPlayingPointText">This will be the activity where the user will hear his music. The songs are displayed according to the mode that the user picked from the previous activity (he will see the artists or the albums etc)</string>
 
     <!-- Text for the 1st button -->
-    <string name="button1NP">Song info</string>
+    <string name="buttonSongInfo">Song info</string>
 
     <!-- Text for the 2nd button -->
-    <string name="button2NP">Artist info</string>
+    <string name="buttonArtistInfo">Artist info</string>
 
     <!-- Text for the 3rd button -->
-    <string name="button3NP">Album info</string>
+    <string name="buttonAlbumInfo">Album info</string>
 
     <!-- info for the search intent at NowPlaying.java -->
     <string name="songInfo">Song Info</string>
@@ -60,10 +67,10 @@
     <!-- Strings for the activity payment -->
 
     <!-- Text for the role of activity_payment -->
-    <string name="paymentPT">This will be the activity where the user can donate to the creator of the app via the PayPal</string>
+    <string name="paymentPointText">This will be the activity where the user can donate to the creator of the app via the PayPal</string>
 
     <!-- Text for the 1st button -->
-    <string name="button1P">Donate 10$</string>
+    <string name="donate10$Button">Donate 10$</string>
 
     <!-- Text for the transaction -->
     <string name="transaction">waiting ...</string>

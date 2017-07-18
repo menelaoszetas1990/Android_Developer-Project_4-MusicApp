@@ -3,11 +3,25 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
-        style="@style/activityImplementationText"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/paymentPT" />
+        android:orientation="vertical">
+
+        <!-- Label of the activity -->
+        <TextView
+            style="@style/activityLabelText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/donateU" />
+
+        <TextView
+            style="@style/activityImplementationText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/paymentPointText" />
+
+    </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -16,12 +30,11 @@
         android:orientation="vertical">
 
         <Button
-            android:id="@+id/button1P"
+            android:id="@+id/buttonDonate10$"
             style="@style/buttons"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/button1P"
-            android:onClick="donate"/>
+            android:text="@string/donate10$Button" />
 
         <TextView
             android:id="@+id/response"

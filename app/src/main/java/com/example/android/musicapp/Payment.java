@@ -42,7 +42,7 @@ public class Payment extends AppCompatActivity {
         m_service.putExtra(PayPalService.EXTRA_PAYPAL_CONFIGURATION, m_configuration);
         startService(m_service); // paypal service, listening to calls to paypal app
 
-        Button donate = (Button) findViewById(R.id.button1P);
+        Button donate = (Button) findViewById(R.id.buttonDonate10$);
 
         donate.setOnClickListener(new View.OnClickListener(){
 

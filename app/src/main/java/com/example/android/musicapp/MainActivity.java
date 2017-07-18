@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         // What to do when the user clicks the button of play music at activity main
-        Button playMusicNow = (Button) findViewById(R.id.button1MA);
+        Button playMusicNow = (Button) findViewById(R.id.playMusicNowButton);
 
         playMusicNow.setOnClickListener(new View.OnClickListener() {
 
@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
 
         // What to do when the user clicks the button of live search at activity main
         // At first we will open soundhound application. If it does not exist a toast message will be pooped
-        Button liveSearch = (Button) findViewById(R.id.button2MA);
+        Button liveSearch = (Button) findViewById(R.id.liveSearchButton);
 
         liveSearch.setOnClickListener(new View.OnClickListener() {
 
@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         // What to do when the user clicks the button of play music at activity main
-        Button donate = (Button) findViewById(R.id.button3MA);
+        Button donate = (Button) findViewById(R.id.donateButton);
 
         donate.setOnClickListener(new View.OnClickListener() {
 

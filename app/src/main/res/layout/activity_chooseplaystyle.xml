@@ -5,11 +5,25 @@
     android:layout_height="match_parent"
     tools:context="com.example.android.musicapp.ChoosePlaystyle">
 
-    <TextView
-        style="@style/activityImplementationText"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/choosePlaystylePT" />
+        android:orientation="vertical">
+
+        <!-- Label of the activity -->
+        <TextView
+            style="@style/activityLabelText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/choosePlaystyleU" />
+
+        <TextView
+            style="@style/activityImplementationText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/choosePlaystylePointText" />
+
+    </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -19,35 +33,35 @@
 
         <!-- Button to play all songs  -->
         <Button
-            android:id="@+id/button1CP"
+            android:id="@+id/playAllSongsButton"
             style="@style/buttons"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/button1CP" />
+            android:text="@string/buttonAllSongs" />
 
         <!-- Button to play songs sorted by artist -->
         <Button
-            android:id="@+id/button2CP"
+            android:id="@+id/playSortedByArtistButton"
             style="@style/buttons"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/button2CP" />
+            android:text="@string/buttonSortedByArtist" />
 
         <!-- Button to play songs sorted by album -->
         <Button
-            android:id="@+id/button3CP"
+            android:id="@+id/playSortedByAlbumButton"
             style="@style/buttons"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/button3CP" />
+            android:text="@string/buttonSortedByAlbum" />
 
         <!-- Button to choose a playlist -->
         <Button
-            android:id="@+id/button4CP"
+            android:id="@+id/playPlaylistsButton"
             style="@style/buttons"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/button4CP" />
+            android:text="@string/buttonPlaylists" />
 
     </LinearLayout>
 

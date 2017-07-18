@@ -7,9 +7,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
-import static com.example.android.musicapp.R.id.button1NP;
-import static com.example.android.musicapp.R.id.button2NP;
-import static com.example.android.musicapp.R.id.button3NP;
+import static com.example.android.musicapp.R.id.songInfoButton;
+import static com.example.android.musicapp.R.id.artistInfoButton;
+import static com.example.android.musicapp.R.id.albumInfoButton;
 
 public class NowPlaying extends AppCompatActivity {
 
@@ -33,7 +33,7 @@ public class NowPlaying extends AppCompatActivity {
         }
 
         // What to do when the user clicks the button of Song Info
-        Button songInfo = (Button) findViewById(button1NP);
+        Button songInfo = (Button) findViewById(songInfoButton);
 
         songInfo.setOnClickListener(new View.OnClickListener() {
 
@@ -48,7 +48,7 @@ public class NowPlaying extends AppCompatActivity {
         });
 
         // What to do when the user clicks the button of Artist Info
-        Button artistInfo = (Button) findViewById(button2NP);
+        Button artistInfo = (Button) findViewById(artistInfoButton);
 
         artistInfo.setOnClickListener(new View.OnClickListener() {
 
@@ -63,7 +63,7 @@ public class NowPlaying extends AppCompatActivity {
         });
 
         // What to do when the user clicks the button of Album Info
-        Button albumInfo = (Button) findViewById(button3NP);
+        Button albumInfo = (Button) findViewById(albumInfoButton);
 
         albumInfo.setOnClickListener(new View.OnClickListener() {
 

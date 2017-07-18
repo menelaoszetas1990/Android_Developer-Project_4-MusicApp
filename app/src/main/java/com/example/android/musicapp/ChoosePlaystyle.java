@@ -15,7 +15,7 @@ public class ChoosePlaystyle extends AppCompatActivity {
         setContentView(R.layout.activity_chooseplaystyle);
 
         // What to do when the user clicks the button of All songs
-        Button allSongs = (Button) findViewById(R.id.button1CP);
+        Button allSongs = (Button) findViewById(R.id.playAllSongsButton);
 
         allSongs.setOnClickListener(new View.OnClickListener() {
 
@@ -31,7 +31,7 @@ public class ChoosePlaystyle extends AppCompatActivity {
         });
 
         // What to do when the user clicks the button of Sorted By Artist
-        Button sortedByArtist = (Button) findViewById(R.id.button2CP);
+        Button sortedByArtist = (Button) findViewById(R.id.playSortedByArtistButton);
 
         sortedByArtist.setOnClickListener(new View.OnClickListener() {
 
@@ -47,7 +47,7 @@ public class ChoosePlaystyle extends AppCompatActivity {
         });
 
         // What to do when the user clicks the button of Sorted By Album
-        Button sortedByAlbum = (Button) findViewById(R.id.button3CP);
+        Button sortedByAlbum = (Button) findViewById(R.id.playSortedByAlbumButton);
 
         sortedByAlbum.setOnClickListener(new View.OnClickListener() {
 
@@ -63,7 +63,7 @@ public class ChoosePlaystyle extends AppCompatActivity {
         });
 
         // What to do when the user clicks the button of Sorted By Artist
-        Button playlists = (Button) findViewById(R.id.button4CP);
+        Button playlists = (Button) findViewById(R.id.playPlaylistsButton);
 
         playlists.setOnClickListener(new View.OnClickListener() {
 

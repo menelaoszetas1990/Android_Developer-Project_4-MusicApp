@@ -4,17 +4,31 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <TextView
-        style="@style/activityImplementationText"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/nowPlayingPT" />
+        android:orientation="vertical">
+
+        <!-- Label of the activity -->
+        <TextView
+            style="@style/activityLabelText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nowPlayingU" />
+
+        <TextView
+            style="@style/activityImplementationText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nowPlayingPointText" />
+
+    </LinearLayout>
 
     <TextView
-        android:layout_centerInParent="true"
         style="@style/activityImplementationText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
         android:text="place for the tools of the song play" />
 
     <LinearLayout
@@ -24,25 +38,25 @@
         android:orientation="vertical">
 
         <Button
-            android:id="@+id/button1NP"
+            android:id="@+id/songInfoButton"
             style="@style/buttons"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/button1NP" />
+            android:text="@string/buttonSongInfo" />
 
         <Button
-            android:id="@+id/button2NP"
+            android:id="@+id/artistInfoButton"
             style="@style/buttons"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/button2NP" />
+            android:text="@string/buttonArtistInfo" />
 
         <Button
-            android:id="@+id/button3NP"
+            android:id="@+id/albumInfoButton"
             style="@style/buttons"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/button3NP" />
+            android:text="@string/buttonAlbumInfo" />
 
     </LinearLayout>
 
